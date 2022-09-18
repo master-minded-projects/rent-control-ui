@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './github-logo.svg';
 </script>
 
 <header>
@@ -63,7 +63,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: rgba(0, 0, 0, 0.7);
 	}
 
 	svg {

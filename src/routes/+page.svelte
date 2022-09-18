@@ -8,8 +8,9 @@
 </svelte:head>
 
 <div class="welcome">
+	<h1><a href="/about"><b><i id="title">R A P W A M™️</i></b></a></h1>
 	<img id="welcomeImage" src="svelte-welcome.png" alt="Welcome" />
-	<h1 id="shout">Click the button</h1>
+	<h1 id="shout"><i>Click the button</i></h1>
 	<Counter />
 </div>
 <div />
@@ -27,5 +28,9 @@
 	}
 	#shout {
 		margin-top: 5%;
+		font-size: 1em;
 	}
+	/* #title {
+		color: rgb(0, 134, 123);
+	} */
 </style>

@@ -31,10 +31,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
+		color: var(--darkest-color);
 	}
 
 	@media (min-width: 480px) {

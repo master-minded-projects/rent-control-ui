@@ -4,18 +4,19 @@
 </svelte:head>
 
 <div class="content">
-	<h1>R A P W A M</h1>
-	<h3 class="tagline">Rent A Place - Without Annoying Me</h3>
+	<h1 class="title">R A P W A M</h1>
+	<p class="tagline">Rent A Place. Without Annoying Me</p>
 	<br />
 	<p class="description">
-		<i>
-			Confidently manage rental properties in a safe, secure, remote, and asynchronous fashion. Stop
-			letting tennants run your life.
-		</i>
+		Confidently manage rental properties in a safe, secure, remote, and asynchronous fashion. Stop
+		letting tennants run your life.
 	</p>
 </div>
 
 <style>
+	.title {
+		color: var(--default-color);
+	}
 	.content {
 		width: 100%;
 		max-width: var(--column-width);
@@ -23,8 +24,10 @@
 	}
 	.tagline {
 		text-align: center;
+		color: var(--default-color);
 	}
 	.description {
 		text-align: left;
+		color: var(--darker-color);
 	}
 </style>
