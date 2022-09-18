@@ -4,24 +4,14 @@
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
-
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+	<h1>R A P W A M</h1>
+	<h3 class="tagline">Rent A Place - Without Annoying Me</h3>
+	<br />
+	<p class="description">
+		<i>
+			Confidently manage rental properties in a safe, secure, remote, and asynchronous fashion. Stop
+			letting tennants run your life.
+		</i>
 	</p>
 </div>
 
@@ -30,5 +20,11 @@
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+	}
+	.tagline {
+		text-align: center;
+	}
+	.description {
+		text-align: left;
 	}
 </style>
