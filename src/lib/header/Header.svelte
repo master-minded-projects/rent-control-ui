@@ -5,8 +5,8 @@
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://github.com/master-minded-projects/rent-control-ui">
+			<img src={logo} alt="GitHub Logo" />
 		</a>
 	</div>
 
