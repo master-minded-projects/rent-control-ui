@@ -85,7 +85,7 @@
 		height: 100%;
 		font-weight: 400;
 		color: var(--accent-color);
-		font-size: 4rem;
+		font-size: 2.5rem;
 		align-items: center;
 		justify-content: center;
 	}
