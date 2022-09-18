@@ -7,52 +7,25 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture class="welcome-image">
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
+<div class="welcome">
+	<img id="welcomeImage" src="svelte-welcome.png" alt="Welcome" />
+	<h1 id="shout">Click the button</h1>
 	<Counter />
-</section>
+</div>
+<div />
 
 <style>
-	section {
+	.welcome {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
 	}
-
-	h1 {
-		width: 100%;
+	#welcomeImage {
+		width: 45%;
+		min-width: 250px;
 	}
-
-	.welcome {
-		display: flex;
-		flex-basis: auto;
-		max-width: 50%;
+	#shout {
+		margin-top: 5%;
 	}
-	.welcome-image {
-		display: flex;
-	}
-
-	/* .welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	} */
 </style>
